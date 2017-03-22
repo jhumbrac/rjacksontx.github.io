@@ -1,41 +1,49 @@
 * {
 	padding: 0;
-	margin: 0
+	margin: 0;
+	box-sizing:border-box;
 }
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
-	color: #222222;
+	color: #222;
 	line-height: 1.3;
-	padding: 20px
-	width: 480px;
-	line-height: 30px;
 }
-
-header {padding: 10px;
+section {
+	padding:4em 0;
+}
+header {
+	padding: 10px;
 		font-size: 30px;
 }
 
-nav	{font-size: 16px;
-	text-align: right;
+nav	{
+	font-size: 16px;
+	text-align: right; /* usually you'll use a float for this - unit 6*/
 }
 
 
-a {margin-right: 10px;
+a {
+	margin-right: 10px;
 	text-decoration: none;
-	color: #000;
-	font-size: 15px;
-   border-bottom: 1.5px solid #000;
+	color: inherit;
+	border-bottom: 1.5px solid;
 }
+ul,ol {padding-left: 1.25em;}
 
-img {background-image: url(/images/penny.jpg) no-repeat center center scroll
+footer {
+	font-size: 12px;
+	padding: 20px;
+	text-align: center;
 }
-
-ul,ol {padding: 20px}
-
-footer {font-size: 12px;
-		line-height: 5.0;
-		padding: 20px;
-		text-align: center;
+#hero {
+	background:url(../images/Penny.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color: #fff;
+	height: 90vh;
+	/* padding: 10em; */
+	/* text-align: right; */
+	/* font-size: 2em; */
 }
